@@ -1,0 +1,179 @@
+/*Цветовая схема - https://colorscheme.ru/#2Y11Tw0w0w0w0*/
+/*#f7effb - самый светлый
+#eddbf6
+#e3c6f1
+#d8b2ec*/
+@font-face {
+    font-family: "Caveat";
+    src: url("fonts/Caveat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Yanone";
+    src: url("fonts/Yanone.ttf");
+}
+
+.body {
+    color: #09194F;
+    font-size: 25px;
+    font-family: "Yanone", sans-serif;
+    background: linear-gradient(#39BAE8, #B9EDF8);
+}
+
+/* Шапка страницы*/
+.page_top{
+    /*background-color: #92d9e4;*/
+    background-color: #0000A1;
+    height: 13vh;
+}
+
+.logo{
+    width: 11vh;
+    height: 11vh;
+    margin-left: 27vw;
+    margin-top: 1vh;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-size: 50px;
+    color: #f2f4f6;
+    font-family: "Caveat", sans-serif;
+    margin-left: 15px;
+    margin-top: 2vh;
+}
+
+.subpanel{
+    background-color: #1F6ED4;
+    height: 50px;
+}
+
+/*Меню*/
+#navbar {
+    margin: 1vh;
+    padding: 0;
+    list-style-type: none;
+    width: 100vw;
+    text-align: center;
+}
+#navbar li {
+    display: inline;
+    margin-right: 3vh;
+}
+#navbar a {
+    color: #f2f4f6;
+    font-size: 20px;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 10vw;
+}
+#navbar a:hover {
+    border-radius: 1vh;
+    background-color: #0000A1;
+}
+
+#navbar .current {
+    border-radius: 1vh;
+    background-color: #0000A1;
+}
+
+/*Основная часть страницы*/
+.main{
+    margin-top: 5vh;
+}
+
+.mainText{
+    color: #f2f4f6;
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+/* Ввод параметров*/
+
+.push{
+    background-color: #1F6ED4;
+    width: 25vw;
+    position: absolute;
+    left: 230px;
+    border-radius: 0.5vh;
+    border: 0.1vh solid #5d2080;
+}
+
+.push_head{
+    background-color: #0000A1;
+    padding: 1.5vh;
+    border-radius: 0.5vh;
+    border: 0.1vh solid #0000A1;
+    border-right: 0vh;
+    color: white;
+}
+.push_head h3{
+    font-size: 4.2vh;
+}
+.cross_image{
+    display: inline;
+    width: 3.5vh;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.push_body{
+    padding: 2vh;
+}
+
+.submitType {
+    position: relative;
+    left: 10px;
+}
+/*Аккордеоны*/
+.clickable{
+    cursor: pointer;
+}
+
+#btn1 {
+    width: 15vw;
+    height: 7vh;
+    font-size: 3vh;
+}
+
+#btn1 a{
+    padding:1vh;
+}
+/*Вход и регистрация*/
+.password_requires{
+    font-size: 1.8vh;
+}
+
+#err_msg{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    width: 20vw;
+}
+
+.cross_image.blockRemovingCross {
+    position: relative;
+}
+
+.structItemRemovingCross {
+    position: relative;
+    width: 6%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+#placeForRes{
+    margin-bottom: 300px;
+}
