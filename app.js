@@ -35,11 +35,11 @@ app.use(session({
 
 
 app.post("/login", urlencodedParser, function (req, res) {
-      if ((req.body.password === "secretnyingredient")&&(req.body.login === "iro4kka")) {
+      if ((req.body.password === "ochensecretno")&&(req.body.login === "iro4kka")) {
         req.session.authorized = true;
         res.redirect('/approve');
       }
-      else if (req.body.password !== "secretnyingredient"){
+      else if (req.body.password !== "ochensecretno"){
         error_message = "Неверный пароль";
         res.redirect('/');
       }
